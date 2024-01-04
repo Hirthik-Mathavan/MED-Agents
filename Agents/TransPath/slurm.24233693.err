@@ -1,0 +1,20 @@
+                                                                 
+                                                                                
+##############################################                                  
+INFORMATION                                                                     
+##############################################                                  
+                                                                                
+You have loaded the base anaconda environment. For specialized environments,    
+you must first enable them with `source activate [env]`.                        
+                                                                                
+For a full list of environments, type `conda env list`                          
+  
+Traceback (most recent call last):
+  File "to_png.py", line 33, in <module>
+    convert_svs_files_to_png_opencv(input_folder, output_folder, target_size)
+  File "to_png.py", line 12, in convert_svs_files_to_png_opencv
+    converted_png_path = convert_svs_to_png_opencv(svs_path, output_folder, folder_name, target_size)
+  File "to_png.py", line 17, in convert_svs_to_png_opencv
+    image = cv2.imread(svs_path)
+cv2.error: OpenCV(4.2.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:75: error: (-215:Assertion failed) pixels <= CV_IO_MAX_IMAGE_PIXELS in function 'validateInputImageSize'
+
