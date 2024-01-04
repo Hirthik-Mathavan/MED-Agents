@@ -1,0 +1,13 @@
+                                                                 
+                                                                                
+##############################################                                  
+INFORMATION                                                                     
+##############################################                                  
+                                                                                
+You have loaded the base anaconda environment. For specialized environments,    
+you must first enable them with `source activate [env]`.                        
+                                                                                
+For a full list of environments, type `conda env list`                          
+  
+/var/spool/slurmd/job24229664/slurm_script: line 17: cd: /TransPath: No such file or directory
+python: can't open file 'to_png.py': [Errno 2] No such file or directory
