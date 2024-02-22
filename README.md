@@ -7,6 +7,7 @@
 
 **2. DOWNLOADING IMAGES**
 
+* make dir 'Slides'
 * change directory: cd Slides/
 * run: ./gdc-client download -m gdc_manifest_20231226_105105.txt
 * run: prep.py
