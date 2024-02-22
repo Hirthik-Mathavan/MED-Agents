@@ -1,25 +1,19 @@
-# MED-Agents
-AVIS for cancer data
+# MED-Tools
 
+**1. Creating Environment**
 
-_1. TO DOWNLOAD IMAGES_
+* conda env create -n OOD --file transpath.yml
+* Active env OOD
 
-cd Slides/
+**2. DOWNLOADING IMAGES**
 
- ./gdc-client download -m gdc_manifest_20231226_105105.txt
+* change directory: cd Slides/
+* run: ./gdc-client download -m gdc_manifest_20231226_105105.txt
+* run: prep.py
 
-_2. CREATE ENV_
+**3. Downloading weights and running the model**
 
-create python evn
-
-pip install pandas
-
-pip install timm==0.5.4
-
-_3. DOWNLOAD WEIGHTS and RUN MODEL_
-
-cd TransPath/
-
-download the pretrained model here ctranspath.pth
-
-python get_features_CTransPath.py
+* cd TransPath/
+* download the pretrained model here [ctranspath.pth](https://drive.google.com/file/d/1DoDx_70_TLj98gTf6YTXnu4tFhsFocDX/view)
+* python get_features_CTransPath.py
+* python testing.py
